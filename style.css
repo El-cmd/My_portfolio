@@ -89,6 +89,18 @@ h2
 section
 {
 	color: white;
-	margin-left: 300px;
 	font-size: 30px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+figure a
+{
+	border: 3px outset black;
+	padding-top: 42px;
+	margin-right: 20px;
+}
+figure a:hover
+{
+	border: 3px inset white;
 }
