@@ -104,3 +104,45 @@ figure a:hover
 {
 	border: 3px inset white;
 }
+.profil
+{
+	float: left;
+	border: 10px double white;
+	border-radius: 20px;
+	margin-left: 300px;
+	margin-right: 30px;
+}
+.about
+{
+	color: white;
+	font-size: 25px;
+}
+.about p strong
+{
+	color: yellow;
+}
+.end
+{
+	font-family: 'star_jediregular';
+	clear: both;
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+}
+.level
+{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.level p
+{
+	color: white;
+	border: 10px double white;
+}
+.hauteur
+{
+	padding-top: 20px;
+	margin-bottom: 10px;
+}
