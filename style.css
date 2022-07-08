@@ -139,10 +139,8 @@ figure a:hover
 .level p
 {
 	color: white;
-	border: 10px double white;
 }
 .hauteur
 {
-	padding-top: 20px;
-	margin-bottom: 10px;
+	font-size: 30px;
 }
