@@ -96,13 +96,13 @@ section
 }
 figure a
 {
-	border: 3px outset black;
 	padding-top: 42px;
 	margin-right: 20px;
+	transform: scale(1);
 }
 figure a:hover
 {
-	border: 3px inset white;
+	transform: scale(1.30);
 }
 .profil
 {
@@ -135,7 +135,6 @@ figure a:hover
 	justify-content: space-around;
 
 }
-
 .level p
 {
 	color: white;
@@ -143,4 +142,94 @@ figure a:hover
 .hauteur
 {
 	font-size: 30px;
+}
+.competence
+{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 50px;
+}
+.html
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+.html:hover
+{
+	transform: scale(1.30);
+}
+.css
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+
+.css:hover
+{
+	transform: scale(1.30);
+}
+.C
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+.C:hover
+{
+	transform: scale(1.30);
+}
+.wp
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+.wp:hover
+{
+	transform: scale(1.30);
+}
+.shell
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+.shell:hover
+{
+	transform: scale(1.30);
+}
+.inkscape
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+.inkscape:hover
+{
+	transform: scale(1.30);
+}
+.gimp
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+.gimp:hover
+{
+	transform: scale(1.30);
+}
+.vm
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+.vm:hover
+{
+	transform: scale(1.30);
+}
+.linux
+{
+	transform: scale(1);
+    transition-duration: 500ms;
+}
+.linux:hover
+{
+	transform: scale(1.30);
 }
